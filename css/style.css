@@ -1,0 +1,10 @@
+#vid1, #vid2, #vid3, #vid4 {
+    text-align: center;
+    width: 150px;
+    float: left;
+    margin: 20px;
+}
+#vid1 video, #vid2 video, #vid3 video, #vid4 video {
+    display: block;
+    margin: auto;
+}
