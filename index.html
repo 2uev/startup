@@ -14,35 +14,73 @@
 </head>
 <body>
 
+<header>
+    <p style="text-align: center; font-size: x-large; border-bottom: #0b3e6f dotted 3px" >VIDEO TEST PAGE</p>
+</header>
+
+<aside>
+    <div class="menu">
+        <h2 class="demoHeaders">Menu</h2>
+        <ul style="width:100px;" id="menu" role="menu" tabindex="0" class="ui-menu ui-widget ui-widget-content" aria-activedescendant="ui-id-19">
+            <li class="ui-menu-item"><div id="ui-id-19" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Outside 1</div></li>
+            <li class="ui-menu-item"><div id="ui-id-20" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Backside 2</div></li>
+            <li class="ui-menu-item"><div aria-haspopup="true" id="ui-id-21" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper"><span class="ui-menu-icon ui-icon ui-icon-caret-1-e"></span>Enter 3</div>
+                <ul role="menu" aria-expanded="false" class="ui-menu ui-widget ui-widget-content ui-front" aria-hidden="true" style="display: none; top: 3159.33px; left: 151px;">
+                    <li class="ui-menu-item"><div id="ui-id-22" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Front 3-1</div></li>
+                    <li class="ui-menu-item"><div id="ui-id-23" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Back 3-2</div></li>
+                    <li class="ui-menu-item"><div id="ui-id-24" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Side 3-3</div></li>
+                    <li class="ui-menu-item"><div id="ui-id-25" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Garage 3-4</div></li>
+                    <li class="ui-menu-item"><div id="ui-id-26" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Under 3-5</div></li>
+                </ul>
+            </li>
+            <li class="ui-menu-item"><div id="ui-id-27" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Hall 4</div></li>
+            <li class="ui-menu-item"><div id="ui-id-28" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Room 5</div></li>
+        </ul>
+    </div>
+</aside>
+
 <div class="cameras">
+
 <div id="vid1" class="ui-widget">
     <div class="ui-widget-header">Растяни меня</div>
     <div class="ui-widget-content" style="padding: 10px">
-        <video src="media/vid1.mp4" controls></video>
+        <video controls="controls">
+            <source src="media/vid1.mp4" type="video/mp4"/>
+        </video>
     </div>
 </div>
 
-<div id="vid2" class="ui-widget">
-    <div class="ui-widget-header">И меня Растяни!</div>
+<div id="net_vid2" class="ui-widget">
+    <div class="ui-widget-header">Push the button!</div>
     <div class="ui-widget-content" style="padding: 10px">
-        <video src="media/vid2.mp4" controls></video>
+        <iframe src="https://www.youtube.com/embed/UjaSwNL_ZjM" allowfullscreen></iframe>
     </div>
 </div>
 
 <div id="vid3" class="ui-widget">
     <div class="ui-widget-header">Перетащи меня</div>
     <div class="ui-widget-content" style="padding: 10px">
-        <video src="media/vid3.mp4" controls></video>
+        <video controls="controls">
+            <source src="media/vid3.mp4" type="video/mp4"/>
+        </video>
     </div>
 </div>
 
 <div id="vid4" class="ui-widget">
     <div class="ui-widget-header">И меня!</div>
     <div class="ui-widget-content" style="padding: 10px">
-        <video src="media/vid4.mp4" controls></video>
+        <video controls="controls">
+            <source src="media/vid4.mp4" type="video/mp4"/>
+        </video>
+    </div>
+</div>
+
+<div id="net_vid1" class="ui-widget">
+    <div class="ui-widget-header">Play me!</div>
+    <div class="ui-widget-content" style="padding: 10px">
+        <iframe src="https://www.youtube.com/embed/hMYRmxFBSfM" allowfullscreen></iframe>
     </div>
 </div>
 </div>
-
 </body>
 </html>

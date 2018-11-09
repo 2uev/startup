@@ -6,17 +6,16 @@
     flex-wrap: wrap;
     align-content: center;
 }
-#vid1, #vid2, #vid3, #vid4 {
+#vid1, #vid2, #vid3, #vid4, #net_vid1, #net_vid2 {
     text-align: center;
     width: 30%;
     height: 45%;
-    /*float: right;*/
-    margin: 20px;
+    margin: 15px;
     cursor: move;
 
 }
-#vid1 video, #vid2 video, #vid3 video, #vid4 video {
-    /*display: block;*/
+#vid1 video, #vid2 video, #vid3 video, #vid4 video, #net_vid1 iframe, #net_vid1 iframe {
+    display: block;
     margin: auto;
     width: 100%;
     height: 100%;

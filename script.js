@@ -1,22 +1,38 @@
 $(function() {
-    $('#vid1').draggable().resizable({
+    $('#vid1').draggable({
+        // grid: [100, 100]
+    }).resizable({
         alsoResize: "#vid1 video",
         handles: "all",
-        grid: [50, 50]
         });
-    $('#vid2').draggable().resizable({
+    $('#vid2').draggable({
+        // grid: [100, 100]
+    }).resizable({
         alsoResize: "#vid2 video",
         handles: "all",
-        grid: [50, 50]
         });
-    $('#vid3').draggable().resizable({
+    $('#vid3').draggable({
+        // grid: [100, 100]
+    }).resizable({
         alsoResize: "#vid3 video",
         handles: "all",
-        grid: [50, 50]
         });
-    $('#vid4').draggable().resizable({
+    $('#vid4').draggable({
+        // grid: [100, 100]
+    }).resizable({
         alsoResize: "#vid4 video",
         handles: "all",
-        grid: [50, 50]
-       })
+       });
+    $('#net_vid1').draggable({
+        // grid: [100, 100]
+    }).resizable({
+        alsoResize: "#net_vid1 iframe",
+        handles: "all",
+    });
+    $('#net_vid2').draggable({
+        // grid: [100, 100]
+    }).resizable({
+        alsoResize: "#net_vid2 iframe",
+        handles: "all",
+    })
     });
