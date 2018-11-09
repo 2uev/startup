@@ -36,3 +36,6 @@ $(function() {
         handles: "all",
     })
     });
+$(function() {
+    $( "#menu" ).menu();
+});

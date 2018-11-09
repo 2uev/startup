@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Super "BOMBA" Video</title>
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="jquery/external/jquery/jquery.js"></script>
-    <!--<script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>-->
-    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
     <script src="script.js"></script>
-    <!--<link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/sunny/jquery-ui.css">-->
     <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -20,21 +20,19 @@
 
 <aside>
     <div class="menu">
-        <h2 class="demoHeaders">Menu</h2>
-        <ul style="width:100px;" id="menu" role="menu" tabindex="0" class="ui-menu ui-widget ui-widget-content" aria-activedescendant="ui-id-19">
-            <li class="ui-menu-item"><div id="ui-id-19" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Outside 1</div></li>
-            <li class="ui-menu-item"><div id="ui-id-20" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Backside 2</div></li>
-            <li class="ui-menu-item"><div aria-haspopup="true" id="ui-id-21" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper"><span class="ui-menu-icon ui-icon ui-icon-caret-1-e"></span>Enter 3</div>
-                <ul role="menu" aria-expanded="false" class="ui-menu ui-widget ui-widget-content ui-front" aria-hidden="true" style="display: none; top: 3159.33px; left: 151px;">
-                    <li class="ui-menu-item"><div id="ui-id-22" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Front 3-1</div></li>
-                    <li class="ui-menu-item"><div id="ui-id-23" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Back 3-2</div></li>
-                    <li class="ui-menu-item"><div id="ui-id-24" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Side 3-3</div></li>
-                    <li class="ui-menu-item"><div id="ui-id-25" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Garage 3-4</div></li>
-                    <li class="ui-menu-item"><div id="ui-id-26" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Under 3-5</div></li>
+        <h2 class="headers">Menu</h2>
+        <ul style="width:100px;" id="menu">
+            <li><div>Outside - 1</div></li>
+            <li><div>Backside - 2</div></li>
+            <li><div>Enter - 3</div>
+                <ul>
+                    <li><div>Front 3-1</div></li>
+                    <li><div>Back 3-2</div></li>
+                    <li><div>Side 3-3</div></li>
                 </ul>
             </li>
-            <li class="ui-menu-item"><div id="ui-id-27" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Hall 4</div></li>
-            <li class="ui-menu-item"><div id="ui-id-28" tabindex="-1" role="menuitem" class="ui-menu-item-wrapper">Room 5</div></li>
+            <li><div>Hall-4</div></li>
+            <li><div>Room-5</div></li>
         </ul>
     </div>
 </aside>
